@@ -7,7 +7,7 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDRcUcTf_ZO_ryVl3_fqUhgUpTtR2oAWko",
+  apiKey: process.env.firebaseAPI,
   authDomain: "asteroids-game-f1930.firebaseapp.com",
   projectId: "asteroids-game-f1930",
   storageBucket: "asteroids-game-f1930.appspot.com",
