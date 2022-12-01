@@ -1,0 +1,55 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>
+			Asteroid Avoidance
+		</title>
+		<!--This is the description for google-->
+		<meta name="Asteroid game" content="Asteroid game using just html5. No plugins used for the game." />
+		<meta name="Asteroid game" content="asteroid, game, html5, html 5, no plugins" />
+		<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" />
+		<link href="asteroids.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script type="text/javascript" src="asteroids.js"></script>
+	</head>
+	<body>
+		<div id="game">
+			<div id="gameUI">
+				<div id="gameIntro">
+					<h1>Asteriod avoidance</h1>
+					<p>Click play and then press any key to start.</p>
+					<p><a id="gamePlay" class="button" href="">Play</a></p>
+				</div>
+
+				<div id="gameStats">
+					<p>Time: <span class="gameScore"></span> seconds</p>
+					<p><a class="gameReset" href="">Reset</a></p>
+				</div>
+
+				<div id="gameComplete">
+					<h1>Game Over</h1>
+					<p>You survived for <span class="gameScore"></span> seconds.</p>
+					<p><a class="gameReset button" href="">Play Again</a></p>
+				</div>
+			</div>
+			<canvas id="gameCanvas" width="800" height="600">
+				Canvas is not supported on your browser
+			</canvas>
+			<audio id="gameSoundBackground" loop>
+				<source src="sounds/background.mp3">
+			</audio>
+
+			<audio id="gameSoundThrust" loop>
+				<source src="sounds/thrust.mp3">
+			</audio>
+
+			<audio id="gameSoundDeath">
+				<source src="sounds/death.mp3">
+			</audio>
+
+		</div>
+
+	</body>
+
+</html>
