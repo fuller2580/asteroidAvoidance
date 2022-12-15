@@ -1,4 +1,4 @@
-# asteroidAvoidance
+# Asteroid Avoidance
 
 Asteroid Avoidance is a simple 2D survival game with no plugins or libraries to show off the power of the built canvas functionality.
 
