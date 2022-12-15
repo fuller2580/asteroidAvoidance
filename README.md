@@ -5,7 +5,7 @@ Asteroid Avoidance is a simple 2D survival game with no plugins or libraries to 
 
 ## Gameplay Preview
 
-https://user-images.githubusercontent.com/16024061/207944993-b78dcf8c-55a6-4fb7-b872-fb60765c7c60.mov
+https://user-images.githubusercontent.com/16024061/207949285-7b688ac9-73cf-4695-b4f3-0f5f661a01e4.mp4
 
 ## Tech Stack
 
